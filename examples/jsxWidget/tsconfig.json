@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "noImplicitAny": true,
+    "outDir": "_build",
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ES5",
+    "experimentalDecorators": true,
+    "jsx": "react"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "files": [
+    "../../dojo/1.11/modules.d.ts",
+    "../../dijit/1.11/modules.d.ts"
+  ]
+}

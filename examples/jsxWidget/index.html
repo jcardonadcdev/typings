@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dojo 1 Typings - JSX Example</title>
+</head>
+
+<body>
+  <!-- An example working with _WidgetBase and JSX.
+		you must do an `npm install` as well as `tsc` prior to navigating
+		to this page in order for it to work properly  -->
+  <div id="widget-div"></div>
+  <script>
+    var dojoConfig = {
+      async: true,
+      baseUrl: 'node_modules',
+      isDebug: true,
+      packages: ['dojo', 'dijit'],
+      selectorEngine: 'lite',
+      tlmSiblingOfDojo: true
+    };
+  </script>
+  <script src="node_modules/dojo/dojo.js"></script>
+  <script>
+    require(['_build/src/app/main']);
+  </script>
+</body>
+
+</html>
